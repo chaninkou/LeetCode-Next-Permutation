@@ -26,6 +26,7 @@ public class FindNextPermutation {
 			swap(nums, i, j);
 		}
 
+		// Reverse if needed
 		reverse(nums, i + 1, nums.length - 1);
 	}
 
