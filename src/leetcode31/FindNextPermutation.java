@@ -39,7 +39,7 @@ public class FindNextPermutation {
 		nums[j] = temp;
 	}
 
-	// Swap i and j if they are not equal
+	// Reverse with 2 indexes
 	private void reverse(int[] nums, int i, int j) {
 		while (i < j) {
 			swap(nums, i, j);
