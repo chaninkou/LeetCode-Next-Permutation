@@ -1,7 +1,7 @@
 package leetcode31;
 
 public class FindNextPermutation {
-	// O(n) and O(1)
+	// O(n) time 
 	public void nextPermutation(int[] nums) {
 		if (nums == null || nums.length <= 1) {
 			return;
